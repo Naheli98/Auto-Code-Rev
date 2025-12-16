@@ -8,7 +8,7 @@ from openai import OpenAI  # To talk to the AI brain
 
 # 1. Load the secrets from your .env file
 load_dotenv()
-
+secret_keys = 'asdkfljalshlaurlamsdfl_aksdfaksjdnfl'
 # 2. Assign secrets to variables for easy use
 WEBHOOK_SECRET = os.getenv("GITHUB_WEBHOOK_SECRET")
 GITHUB_TOKEN = os.getenv("GITHUB_ACCESS_TOKEN")
