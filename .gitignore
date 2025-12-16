@@ -1,0 +1,5 @@
+# .gitignore file content
+# Tells Git to ignore these files
+.env
+__pycache__/
+*.pyc
